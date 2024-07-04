@@ -1,0 +1,170 @@
+/******w**************
+    
+    Assignment 4 Javascript
+    Name: Abubakar Abdulai
+    Date: July 4. 2024
+    Description: css for Assignment4
+
+*********************/
+
+html
+{
+    background-color: #1ad3ab;
+    font-family: sans-serif;
+    margin: 100px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #f4faed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 15px black;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-updated {
+    font-size: 0.8em;
+    color: #6c757d; 
+    margin-top: 0.5em; 
+    margin-bottom: 2em;
+}
+
+
+h1#title
+{
+    font-size: 2em;
+}
+
+#subheading
+{
+    font-weight: normal;
+    margin-top: 10px;
+
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+p
+{
+    margin: 5px 0px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input
+{
+    display: inline;
+}
+
+.inline
+{
+    display: inline;
+}
+
+#optionalBoxes
+{
+    margin: 6px 0px;
+}
+
+button
+{
+    margin: 10px 0px;
+}
+
+#explanation
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+table
+{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-collapse: collapse;
+
+}
+
+#genderTH, #neighbourhoodTH
+{
+    display: none;
+}
+
+thead
+{
+    display: none;
+    border: 2px solid black;
+
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: whitesmoke;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: lightgrey;
+}
+
+tbody tr:hover
+{
+    background-color: darkgrey;
+    font-weight: bold;
+    color: black;
+}
+
+td
+{
+    text-align: center;
+    border-bottom: 1px grey solid;
+}
+
+
+
+a
+{
+    text-decoration: none;
+}
+
+
+#info
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin: 0px;
+    background-color: lightpink;
+    margin-left: 10px;
+
+}
+
+span
+{
+    font-weight: bold;
+}
+
+
